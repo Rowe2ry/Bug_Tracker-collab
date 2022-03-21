@@ -110,7 +110,8 @@ A page for all accounts to update or change their contact information.
     1. First Name & Last Name
     2. Email Address
     3. Phone Number
-    4. <span style="color: #8888FF;">*Nice to have*</span> User Photo
+    4. <span style="color: #8888FF;">*Nice to have:*</span> User Photo
+    5. <span style="color: #8888FF;">*Nice to have:*</span> Viewing preference (i.e. light mode and dark mode)
 
 * My Cases (list of all cases past & present as clickable links to each case)
 
