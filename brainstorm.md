@@ -141,7 +141,7 @@ Visible only to all accounts above users. This page lists all closed cases, is s
 
 ## <span style="color: #FFFF00;">Databases:</span>
 
-### <span style="color: #00FFFF;">Accounts</span> – Array datatype
+### <span style="color: #00FFFF;">Accounts</span> – Object datatype
 * Username (string)
 * Authentication level (number: 0-4; 0-user, 1-CSR, 2-Specialist, 3-Moderator, 4-Admin)
 * First Name (string)
@@ -151,7 +151,7 @@ Visible only to all accounts above users. This page lists all closed cases, is s
 * phone number (either string, or number if formatted as 10 digits with no non-number characters)
 * Cases associated with the account (an array of case numbers)
 
-### <span style="color: #00FFFF;">Cases</span> – Array datatype
+### <span style="color: #00FFFF;">Cases</span> – Object datatype
 * Case Number (number)
 * Description (string)
 * Keywords (array of strings)
@@ -159,4 +159,4 @@ Visible only to all accounts above users. This page lists all closed cases, is s
 * Internal notes (string — block text)
 * Case Status (number: 0-5; 0-created, 1-awaiting customer response, 2-flagged-needs review, 3-closed-unresolved, 4-closed-resolved)
 * flagged for internal review (boolean)
-* log of activity (array of array of strings \[ date of event, event type (i.e. status change), account that made the change\])
+* log of activity (object containing arrays of strings \[ date of event, event type (i.e. status change), account that made the change\])
