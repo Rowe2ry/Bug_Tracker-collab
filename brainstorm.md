@@ -1,4 +1,4 @@
-# Outline : Rough Draft V1.0.0
+# Outline : Rough Draft V1.0.1
 
 ## Idea: <span style="color: #00FFFF;">Bug Tracker — web application</span>
 
@@ -7,6 +7,8 @@ An application for users to call or email a company when they have a problem usi
 These applications exist all over, and we aren't trying to build one robust enough to sell as a working solution (we would not be competitive). More so to show recruiters and employers our collaboration skills, vision, aim, and technical execution of the baseline MVP (minimum viable product) of this type of application.
 
 All features below are being considered critical and *required for the MVP* unless they are marked with "<span style="color: #8888FF;">*Nice to have.*</span>"
+
+Rough wireframe started here: [Wireframe Mockup V1] (https://www.figma.com/file/69DDRbebjf78ogNheVWpPV/Bug-Tracker-Wireframing)
 
 ## <span style="color: #FFFF00;">Authentication / Permissions/ Security:<span>
 
